@@ -16,6 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
   </head>
   <body>
     <header class="header-section">
@@ -36,33 +39,43 @@
             </li>
           </ul>
         </nav>
-
+        
         <address>
           <ul class="contacts list">
             <li class="contact-item">
               <a href="mailto:info@devstudio.com" class="link contact-item-link">
                 info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-item">
-              <a href="tel:+110001111111" class="link contact-item-link"> +11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
+                >
+              </li>
+              <li class="contact-item">
+                <a href="tel:+110001111111" class="link contact-item-link"> +11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+
+          <button type="button" class="mobile-menu-btn">
+            <svg class="mobile-menu-icon">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+      </div>
+
+      <div class="mobile-menu">
+        
       </div>
     </header>
 
     <main>
       <!-- Hero Section -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="title hero-title">Effective Solutions for Your Business</h1>
           <button class="modal-btn btn" data-modal-open type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Features Section -->
-      <section class="features-section">
+      <!-- <section class="features-section">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
           <ul class="features list">
@@ -116,10 +129,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Service Section -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="title service-title">What are we doing</h2>
           <ul class="service-list list">
@@ -134,10 +147,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Team Section -->
-      <section class="team-section">
+      <!-- <section class="team-section">
         <div class="container">
           <h2 class="title team-title">Our Team</h2>
           <ul class="team-list list">
@@ -291,10 +304,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Customers Section -->
-      <section class="customers-section">
+      <!-- <section class="customers-section">
         <div class="container">
           <h2 class="title customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -342,10 +355,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-info">
@@ -404,9 +417,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close type="button">
           <svg class="modal-close-icon">
@@ -464,7 +477,7 @@
           <button type="submit" class="sbmt-btn btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
   </body>

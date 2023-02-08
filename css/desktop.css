@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  .logo-hdr {
+    line-height: 1.33;
+    margin-right: 76px;
+    padding-bottom: 28px;
+  }
+
+  .menu-item-link,
+  .contact-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
+
+  .contacts {
+    gap: 40px;
+  }
+
+  .contact-item {
+    line-height: 1.5;
+  }
+}
