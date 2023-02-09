@@ -279,29 +279,35 @@ img {
 /* =============== /HEADER =============== */
 
 /* =============== HERO =============== */
-/* .hero {
+.hero {
   background-color: var(--background-color-hero);
   background-image: linear-gradient(var(--background-color-hero), var(--background-color-hero)),
-    url(../images/people-office\ 1-2.jpg);
+    url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  width: 1440px;
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--background-color-hero), var(--background-color-hero)),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 34px;
+  line-height: 1.11;
   color: #ffffff;
-  max-width: 494px;
+  max-width: 304px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .modal-btn {
@@ -315,7 +321,7 @@ img {
   height: 56px;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 /* =============== /HERO =============== */
 
 /* =============== FEATURES =============== */

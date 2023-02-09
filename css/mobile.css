@@ -1,8 +1,11 @@
 @media screen and (min-width: 480px) {
+  /* =============== COMPONENTS =============== */
   .container {
     max-width: 425px;
   }
-  
+  /* =============== /COMPONENTS =============== */
+
+  /* =============== MOBILE MENU =============== */
   .mobile-menu-soc-list {
     justify-content: start;
     gap: 56px;
@@ -11,6 +14,26 @@
   .mobile-menu-tel-link {
     font-size: 36px;
   }
+  /* =============== /MOBILE MENU =============== */
+
+  /* =============== HERO =============== */
+  .hero {
+    background-image: linear-gradient(var(--background-color-hero), var(--background-color-hero)),
+      url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(var(--background-color-hero), var(--background-color-hero)),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 36px;
+    max-width: 318px;
+  }
+  /* =============== /HERO =============== */
 }
 
 @media screen and (max-width: 767px) {

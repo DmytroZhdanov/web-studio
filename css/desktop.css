@@ -1,8 +1,11 @@
 @media screen and (min-width: 1200px) {
+  /* =============== COMPONENTS =============== */
   .container {
     max-width: 1158px;
   }
+  /* =============== /COMPONENTS =============== */
 
+  /* =============== HEADER =============== */
   .logo-hdr {
     line-height: 1.33;
     margin-right: 76px;
@@ -25,4 +28,17 @@
   .contact-item {
     line-height: 1.5;
   }
+  /* =============== /HEADER =============== */
+
+  /* =============== HERO =============== */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    width: 1440px;
+  }
+
+  .hero-title {
+    padding-bottom: 48px;
+  }
+  /* =============== /HERO =============== */
 }
