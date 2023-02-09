@@ -1,9 +1,13 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    max-width: 766px;
   }
 
   .mobile-menu-btn {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 
@@ -30,9 +34,7 @@
     justify-content: center;
     padding: 24px 0 22px;
   }
-
   .current {
-    color: var(--pressed-state-color);
     position: relative;
   }
 
