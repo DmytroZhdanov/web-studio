@@ -584,7 +584,7 @@ img {
 /* =============== /FOOTER =============== */
 
 /* =============== PROJECTS =============== */
-/* .portfolio-section {
+.portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -686,7 +686,7 @@ img {
 .project-item-text {
   color: var(--text-color);
   line-height: 1.5;
-} */
+}
 /* =============== /PROJECTS =============== */
 
 /* =============== MODAL =============== */
