@@ -208,13 +208,31 @@
           <h2 class="title service-title">What are we doing</h2>
           <ul class="service-list list">
             <li class="service-item">
-              <img src="./images/img1-2.jpg" alt="iMac" width="360" height="300" />
+              <img
+                srcset="./images/pc.jpg 1x, ./images/pc-2x.jpg 2x"
+                src="./images/pc.jpg"
+                alt="iMac"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="service-item">
-              <img src="./images/img2-2.jpg" alt="WhatsApp" width="360" height="300" />
+              <img
+                srcset="./images/messenger.jpg 1x, ./images/messenger-2x.jpg 2x"
+                src="./images/messenger.jpg"
+                alt="WhatsApp"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="service-item">
-              <img src="./images/img3-2.jpg" alt="iPhone and laptop" width="360" height="300" />
+              <img
+                srcset="./images/app.jpg 1x, ./images/app-2x.jpg 2x"
+                src="./images/app.jpg"
+                alt="iPhone and laptop"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
@@ -226,7 +244,13 @@
           <h2 class="title team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-mmbr">
-              <img src="./images/img-5.jpg" alt="Product Designer" width="264" height="260" />
+              <img
+                srcset="./images/product-designer.jpg 1x, ./images/product-designer-2x.jpg 2x"
+                src="./images/product-designer.jpg"
+                alt="Product Designer"
+                width="264"
+                height="260"
+              />
               <div class="team-mmbr-descr">
                 <h3 class="team-mmbr-name">Mark Guerrero</h3>
                 <p class="team-mmbr-psn">Product Designer</p>
@@ -263,7 +287,13 @@
               </div>
             </li>
             <li class="team-mmbr">
-              <img src="./images/img-2-2.jpg" alt="Frontend Developer" width="264" height="260" />
+              <img
+                srcset="./images/frontend-developer.jpg 1x, ./images/frontend-developer-2x.jpg 2x"
+                src="./images/frontend-developer.jpg"
+                alt="Frontend Developer"
+                width="264"
+                height="260"
+              />
               <div class="team-mmbr-descr">
                 <h3 class="team-mmbr-name">Tom Ford</h3>
                 <p class="team-mmbr-psn">Frontend Developer</p>
@@ -300,7 +330,13 @@
               </div>
             </li>
             <li class="team-mmbr">
-              <img src="./images/img-3-2.jpg" alt="Marketing" width="264" height="260" />
+              <img
+                srcset="./images/marketing.jpg 1x, ./images/marketing-2x.jpg 2x"
+                src="./images/marketing.jpg"
+                alt="Marketing"
+                width="264"
+                height="260"
+              />
               <div class="team-mmbr-descr">
                 <h3 class="team-mmbr-name">Camila Garcia</h3>
                 <p class="team-mmbr-psn">Marketing</p>
@@ -337,7 +373,13 @@
               </div>
             </li>
             <li class="team-mmbr">
-              <img src="./images/img-4-2.jpg" alt="UI Designer" width="264" height="260" />
+              <img
+                srcset="./images/ui-designer.jpg 1x, ./images/ui-designer-2x.jpg 2x"
+                src="./images/ui-designer.jpg"
+                alt="UI Designer"
+                width="264"
+                height="260"
+              />
               <div class="team-mmbr-descr">
                 <h3 class="team-mmbr-name">Daniel Wilson</h3>
                 <p class="team-mmbr-psn">UI Designer</p>
@@ -507,7 +549,7 @@
           <label class="modal-input-field">
             <span class="modal-input-text">Name</span>
             <span class="modal-input-wrapper">
-              <input type="text" name="user-name" class="modal-input" required>
+              <input type="text" name="user-name" class="modal-input" required />
               <svg class="modal-input-icon person">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -517,7 +559,7 @@
           <label class="modal-input-field">
             <span class="modal-input-text">Phone</span>
             <span class="modal-input-wrapper">
-              <input type="tel" name="user-phone-number" class="modal-input" required>
+              <input type="tel" name="user-phone-number" class="modal-input" required />
               <svg class="modal-input-icon phone">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -527,7 +569,7 @@
           <label class="modal-input-field">
             <span class="modal-input-text">Email</span>
             <span class="modal-input-wrapper">
-              <input type="email" name="user-email" class="modal-input" required>
+              <input type="email" name="user-email" class="modal-input" required />
               <svg class="modal-input-icon envelop">
                 <use href="./images/icons.svg#icon-envelop"></use>
               </svg>
@@ -539,7 +581,13 @@
             <textarea name="comment" placeholder="Text input" class="modal-comment"></textarea>
           </label>
 
-          <input type="checkbox" id="modal-check-box" name="user-policy" class="modal-check visually-hidden" required>
+          <input
+            type="checkbox"
+            id="modal-check-box"
+            name="user-policy"
+            class="modal-check visually-hidden"
+            required
+          />
           <label for="modal-check-box" class="modal-check-desc">
             <span class="modal-check-box-wrapper">
               <svg class="modal-check-box-icon">
