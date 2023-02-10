@@ -105,4 +105,9 @@
   .footer-form-btn {
     margin: 16px auto 0 auto;
   }
+
+  .modal {
+    width: 100%;
+    max-width: 392px;
+  }
 }

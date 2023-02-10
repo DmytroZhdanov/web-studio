@@ -581,32 +581,6 @@ img {
   height: 24px;
   fill: currentColor;
 }
-
-/* 
-.footer-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: start;
-} done
-
-.footer-info {
-  width: 264px;
-  margin-right: 120px;
-} done
-
-.footer-soc-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-} done
-
-.footer-form {
-  margin-left: auto;
-  width: 453px;
-  display: flex;
-} done
- */
 /* =============== /FOOTER =============== */
 
 /* =============== PROJECTS =============== */
@@ -716,8 +690,7 @@ img {
 /* =============== /PROJECTS =============== */
 
 /* =============== MODAL =============== */
-
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -737,8 +710,6 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
   background-color: var(--background-color-modal);
   border-radius: 4px;
   padding: 24px;
@@ -815,15 +786,6 @@ img {
   transition: outline var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
 }
 
-.modal-input-icon {
-  position: absolute;
-  left: 19px;
-  top: 50%;
-  transform: translateY(-50%);
-  fill: var(--dark-color);
-  transition: fill var(--transition-dur-and-func);
-}
-
 .person {
   width: 12px;
   height: 12px;
@@ -837,6 +799,15 @@ img {
 .envelop {
   width: 15px;
   height: 12px;
+}
+
+.modal-input-icon {
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: var(--dark-color);
+  transition: fill var(--transition-dur-and-func);
 }
 
 .modal-input:focus {
@@ -934,5 +905,5 @@ img {
   height: 56px;
   margin: 24px auto 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
+}
 /* =============== /MODAL =============== */
