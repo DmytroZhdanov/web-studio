@@ -78,6 +78,44 @@
     margin-bottom: 56px;
   }
   /* =============== /HERO =============== */
+
+  /* =============== FEATURES =============== */
+  .features-list {
+    display: flex;
+  }
+
+  .feature-item {
+    width: 356px;
+  }
+  /* =============== /FEATURES =============== */
+
+  /* =============== TEAM =============== */
+  .team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  /* =============== /TEAM =============== */
+
+  /* =============== CUSTOMERS =============== */
+  .customers-list {
+    column-gap: 24px;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customer-item {
+    width: 168px;
+    height: 88px;
+  }
+
+  .customer-icon {
+    width: 104px;
+  }
+  /* =============== /CUSTOMERS =============== */
 }
 
 @media screen and (max-width: 1199px) {
@@ -91,5 +129,27 @@
   .contact-item {
     font-size: 12px;
     line-height: 1.33;
+  }
+
+  .features-section {
+    padding-bottom: 96px;
+  }
+
+  .features-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .feature-item-icon-bg {
+    display: none;
+  }
+
+  .feature-item-icon {
+    display: none;
+  }
+
+  .service-section {
+    display: none;
   }
 }

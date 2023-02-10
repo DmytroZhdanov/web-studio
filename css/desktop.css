@@ -3,6 +3,11 @@
   .container {
     max-width: 1158px;
   }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   /* =============== /COMPONENTS =============== */
 
   /* =============== HEADER =============== */
@@ -41,4 +46,73 @@
     padding-bottom: 48px;
   }
   /* =============== /HERO =============== */
+
+  /* =============== FEATURES =============== */
+  .features-section {
+    padding-top: 120px;
+  }
+
+  .features-list {
+    justify-content: space-between;
+  }
+
+  .feature-item {
+    width: 264px;
+  }
+
+  .feature-item-icon-bcg {
+    width: 264px;
+    height: 112px;
+    background-color: var(--light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-item-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .feature-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+
+  .feature-item-descr {
+    font-weight: 400;
+  }
+  /* =============== /FEATURES =============== */
+
+  /* =============== SERVICE =============== */
+  .service-title {
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+  }
+
+  .service-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* =============== /SERVICE =============== */
+
+  /* =============== TEAM =============== */
+  .team-list {
+    justify-content: space-between;
+  }
+  /* =============== /TEAM =============== */
+
+  /* =============== CUSTOMERS =============== */
+  .customers-section {
+    padding: 120px 0;
+  }
+
+  .customers-list {
+    width: auto;
+  }
+  /* =============== /CUSTOMERS =============== */
 }

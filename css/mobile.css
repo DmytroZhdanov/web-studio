@@ -16,7 +16,18 @@
   }
   /* =============== /MOBILE MENU =============== */
 
-  /* =============== HERO =============== */
+  /* =============== CUSTOMERS =============== */
+  .customers-list {
+    width: 396px;
+  }
+  /* =============== /CUSTOMERS =============== */
+
+  /* =============== FOOTER =============== */
+
+  /* =============== /FOOTER =============== */
+}
+
+@media screen and (min-width: 425px) {
   .hero {
     background-image: linear-gradient(var(--background-color-hero), var(--background-color-hero)),
       url(../images/hero-bg-tab.jpg);
@@ -28,12 +39,6 @@
         url(../images/hero-bg-tab-2x.jpg);
     }
   }
-
-  .hero-title {
-    font-size: 36px;
-    max-width: 318px;
-  }
-  /* =============== /HERO =============== */
 }
 
 @media screen and (max-width: 767px) {
@@ -43,5 +48,30 @@
 
   .contacts {
     display: none;
+  }
+
+  .feature-item {
+    max-width: 396px;
+  }
+
+  .feature-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .feature-item-title {
+    text-align: center;
+  }
+
+  .team-mmbr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team-mmbr:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .customers-list {
+    justify-content: center;
   }
 }
