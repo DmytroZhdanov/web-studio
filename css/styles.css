@@ -468,17 +468,16 @@ img {
 /* =============== /CUSTOMERS =============== */
 
 /* =============== FOOTER =============== */
-/* .footer {
+.footer {
   background-color: var(--dark-color);
   color: var(--accent-color);
   line-height: 1.5;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-info {
   width: 264px;
-  margin-right: 120px;
 }
 
 .logo-ftr {
@@ -488,23 +487,17 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: start;
-}
-
-.footer-soc-title {
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 24px;
-}
-
 .footer-soc-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+.footer-soc-title {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .footer-soc-item {
@@ -533,12 +526,6 @@ img {
   fill: var(--light-color);
 }
 
-.footer-form {
-  margin-left: auto;
-  width: 453px;
-  display: flex;
-}
-
 .footer-form-label {
   display: block;
   font-family: var(--primary-font-family);
@@ -549,9 +536,8 @@ img {
 
 .footer-form-input {
   font-family: var(--primary-font-family);
-  width: 264px;
+  width: 100%;
   height: 40px;
-  margin-right: 24px;
   font-size: 12px;
   line-height: 2;
   padding: 8px 16px;
@@ -594,7 +580,33 @@ img {
   width: 24px;
   height: 24px;
   fill: currentColor;
-} */
+}
+
+/* 
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+} done
+
+.footer-info {
+  width: 264px;
+  margin-right: 120px;
+} done
+
+.footer-soc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+} done
+
+.footer-form {
+  margin-left: auto;
+  width: 453px;
+  display: flex;
+} done
+ */
 /* =============== /FOOTER =============== */
 
 /* =============== PROJECTS =============== */

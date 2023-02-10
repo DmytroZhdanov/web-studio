@@ -116,6 +116,28 @@
     width: 104px;
   }
   /* =============== /CUSTOMERS =============== */
+
+  /* =============== FOOTER =============== */
+  .footer-content {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
+  .footer-info {
+    margin-right: 24px;
+  }
+
+  .footer-form {
+    width: 453px;
+    display: flex;
+  }
+
+  .footer-form-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+  /* =============== /FOOTER =============== */
 }
 
 @media screen and (max-width: 1199px) {
@@ -151,5 +173,15 @@
 
   .service-section {
     display: none;
+  }
+
+  .footer-content {
+    row-gap: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-content {
+    width: 552px;
   }
 }

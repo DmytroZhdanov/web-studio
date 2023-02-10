@@ -115,4 +115,20 @@
     width: auto;
   }
   /* =============== /CUSTOMERS =============== */
+
+  /* =============== FOOTER =============== */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-info {
+    margin-right: 120px;
+  }
+
+  .footer-form {
+    margin-left: auto;
+    height: 80px;
+  }
+  /* =============== /FOOTER =============== */
 }

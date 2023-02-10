@@ -23,7 +23,9 @@
   /* =============== /CUSTOMERS =============== */
 
   /* =============== FOOTER =============== */
-
+  .footer-form-input {
+    width: 396px;
+  }
   /* =============== /FOOTER =============== */
 }
 
@@ -73,5 +75,34 @@
 
   .customers-list {
     justify-content: center;
+  }
+
+  .footer-info {
+    margin: 0 auto 72px auto;
+  }
+
+  .logo-ftr {
+    text-align: center;
+  }
+
+  .footer-soc-list {
+    margin-bottom: 72px;
+  }
+
+  .footer-soc-title {
+    text-align: center;
+  }
+
+  .footer-form-label {
+    text-align: center;
+  }
+
+  .footer-form-input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-form-btn {
+    margin: 16px auto 0 auto;
   }
 }
