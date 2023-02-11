@@ -27,6 +27,10 @@
     width: 396px;
   }
   /* =============== /FOOTER =============== */
+
+  /* =============== PROJECTS =============== */
+
+  /* =============== /PROJECTS =============== */
 }
 
 @media screen and (min-width: 425px) {
@@ -109,5 +113,14 @@
   .modal {
     width: 100%;
     max-width: 392px;
+  }
+
+  .filter {
+    row-gap: 16px;
+    width: 263px;
+  }
+
+  .project-item:not(:last-child) {
+    margin-bottom: 48px;
   }
 }

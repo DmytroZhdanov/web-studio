@@ -140,11 +140,37 @@
   /* =============== /FOOTER =============== */
 
   /* =============== MODAL =============== */
-.modal {
-  width: 408px;
-}
+  .modal {
+    width: 408px;
+  }
   /* =============== /MODAL =============== */
 
+  /* =============== PROJECTS =============== */
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .filter {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .filter-btn {
+    padding: 12px 24px;
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .project-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  /* =============== /PROJECTS =============== */
 }
 
 @media screen and (max-width: 1199px) {

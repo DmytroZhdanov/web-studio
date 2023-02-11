@@ -131,4 +131,23 @@
     height: 80px;
   }
   /* =============== /FOOTER =============== */
+
+  /* =============== PROJECTS =============== */
+  .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .filter {
+    margin-bottom: 72px;
+  }
+
+  .project-list {
+    row-gap: 48px;
+  }
+
+  .project-item {
+    flex-basis: calc((100% - (24px * 2)) / 3);
+  }
+  /* =============== /PROJECTS =============== */
 }
