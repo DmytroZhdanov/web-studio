@@ -208,31 +208,31 @@
           <h2 class="title service-title">What are we doing</h2>
           <ul class="service-list list">
             <li class="service-item">
-              <img
-                srcset="./images/pc.jpg 1x, ./images/pc-2x.jpg 2x"
-                src="./images/pc.jpg"
-                alt="iMac"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source srcset="./images/pc.webp 1x, ./images/pc-2x.webp 2x" type="image/webp" />
+                <source srcset="./images/pc.jpg 1x, ./images/pc-2x.jpg 2x" type="image/jpeg" />
+                <img src="./images/pc.jpg" alt="iMac" width="360" height="300" />
+              </picture>
             </li>
             <li class="service-item">
-              <img
-                srcset="./images/messenger.jpg 1x, ./images/messenger-2x.jpg 2x"
-                src="./images/messenger.jpg"
-                alt="WhatsApp"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="./images/messenger.webp 1x, ./images/messenger-2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/messenger.jpg 1x, ./images/messenger-2x.jpg 2x"
+                  type="image/jpeg"
+                />
+                <img src="./images/messenger.jpg" alt="WhatsApp" width="360" height="300" />
+              </picture>
             </li>
             <li class="service-item">
-              <img
-                srcset="./images/app.jpg 1x, ./images/app-2x.jpg 2x"
-                src="./images/app.jpg"
-                alt="iPhone and laptop"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source srcset="./images/app.webp 1x, ./images/app-2x.webp 2x" type="image/webp" />
+                <source srcset="./images/app.jpg 1x, ./images/app-2x.jpg 2x" type="image/jpeg" />
+                <img src="./images/app.jpg" alt="iPhone and laptop" width="360" height="300" />
+              </picture>
             </li>
           </ul>
         </div>
