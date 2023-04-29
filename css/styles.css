@@ -98,11 +98,6 @@ img {
   clip: rect(0 0 0 0);
 }
 
-/* .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -110,6 +105,10 @@ img {
   max-width: 425px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.disabled-scroll {
+  overflow: hidden;
 }
 
 /* =============== /COMPONENTS =============== */
